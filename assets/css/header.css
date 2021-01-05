@@ -1,0 +1,58 @@
+.headerNavigation {
+  
+}
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  max-height: 120px;
+}
+.headerText {
+  text-align: center;
+}
+.logo {
+   margin-left: 1.2em;
+   margin-top: 0.5em;
+   margin-bottom: 1.2em;
+}
+
+.navigationButton {
+  margin: 1.3em;
+}
+.headerHeading{
+  margin-top: 5em;
+}
+.headerParagraph{
+  margin-top: 2em;
+}
+.link {
+  text-decoration: none;
+  border: 1px solid #FA4A0C;
+  border-radius: 25px;
+  padding: 0.5em 2em;
+  
+}
+.linkPlaystore {
+  background-color: #FA4A0C;
+  color: white;
+}
+.linkAppStore{
+  color: #FA4A0C;
+}
+.headerInformation , .headerButton{
+  margin-top: 2em;
+}
+.headerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonPlaystore {
+  
+}
+
+
+.buttonPlaystore , .buttonAppStore {
+  margin-top: 2em;
+}
