@@ -1,3 +1,8 @@
+:root {
+  margin-left: 1.3em;
+  margin-right: 1.3em;
+  box-sizing: border-box;
+}
 .headerNavigation {
   
 }
@@ -12,36 +17,41 @@
   text-align: center;
 }
 .logo {
-   margin-left: 1.2em;
    margin-top: 0.5em;
    margin-bottom: 1.2em;
 }
 
 .navigationButton {
-  margin: 1.3em;
+  
 }
 .headerHeading{
   margin-top: 5em;
+  font-size: 1em;
+  color: var(--text-color);
 }
 .headerParagraph{
   margin-top: 2em;
+  font-size: 40px;
+  text-align: center;
 }
 .link {
   text-decoration: none;
-  border: 1px solid #FA4A0C;
+  border: 1px solid var(--accent-color);
   border-radius: 25px;
   padding: 0.5em 2em;
   
 }
 .linkPlaystore {
-  background-color: #FA4A0C;
+  background-color: var(--accent-color);
   color: white;
 }
 .linkAppStore{
-  color: #FA4A0C;
+  color: var(--accent-color);
 }
 .headerInformation , .headerButton{
   margin-top: 2em;
+  color: var(--text-color);
+  font-size: 26px;
 }
 .headerButton {
   display: flex;
