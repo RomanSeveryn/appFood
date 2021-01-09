@@ -1,10 +1,7 @@
-:root {
+.headerNavigation {
   margin-left: 1.3em;
   margin-right: 1.3em;
   box-sizing: border-box;
-}
-.headerNavigation {
-  
 }
 .headerContainer {
   display: flex;
@@ -28,11 +25,16 @@
   margin-top: 5em;
   font-size: 1em;
   color: var(--text-color);
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 .headerParagraph{
   margin-top: 2em;
-  font-size: 40px;
+  font-size: 36px;
+  color: var(--text-color-bold);
   text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 .link {
   text-decoration: none;
@@ -51,7 +53,9 @@
 .headerInformation , .headerButton{
   margin-top: 2em;
   color: var(--text-color);
-  font-size: 26px;
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: 500;
 }
 .headerButton {
   display: flex;
@@ -65,4 +69,6 @@
 
 .buttonPlaystore , .buttonAppStore {
   margin-top: 2em;
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
