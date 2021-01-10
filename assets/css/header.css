@@ -1,60 +1,68 @@
 .headerNavigation {
-  margin-left: 1.3em;
-  margin-right: 1.3em;
-  box-sizing: border-box;
 }
 .headerContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   max-height: 120px;
+  margin-left: 1.3em;
+  margin-right: 1.3em;
 }
 .headerText {
   text-align: center;
 }
 .logo {
-   margin-top: 0.5em;
-   margin-bottom: 1.2em;
+  margin-top: 0.5em;
+  margin-bottom: 1.2em;
 }
 
 .navigationButton {
-  
 }
-.headerHeading{
+.headerHeading {
   margin-top: 5em;
   font-size: 1em;
   color: var(--text-color);
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
 }
-.headerParagraph{
+
+.wrapperHeaderParagraph {
+  max-width: 410px;
+  width: 100%;
+ margin: 0 auto;
+}
+.headerParagraph {
   margin-top: 2em;
   font-size: 36px;
   color: var(--text-color-bold);
-  text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
+}
+.wrapperHeaderInformation {
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
 }
 .buttonLink {
   text-decoration: none;
   border: 1px solid var(--accent-color);
   border-radius: 25px;
   padding: 0.5em 2em;
-  
 }
 .linkPlaystore {
   background-color: var(--accent-color);
   color: white;
 }
-.linkAppStore{
+.linkAppStore {
   color: var(--accent-color);
 }
-.headerInformation , .headerButton{
+.headerInformation,
+.headerButton {
   margin-top: 2em;
   color: var(--text-color);
   font-size: 24px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 500;
 }
 .headerButton {
@@ -63,13 +71,12 @@
   align-items: center;
 }
 .buttonPlaystore {
-  
 }
 
-
-.buttonPlaystore , .buttonAppStore {
+.buttonPlaystore,
+.buttonAppStore {
   margin-top: 2em;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
 }
 
@@ -78,10 +85,9 @@
   }
 
   .headerMainPart {
-    background-image: url('../images/headerDesctop.png');
+    background-image: url("../images/headerDesctop.png");
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: cover;
-    
   }
 }

@@ -1,43 +1,33 @@
-.textContent {
-  
+.wrapperSectionInformation {
+  text-align: center;
 }
-.innerTextContent {
+
+.textSectionInformation {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-
-.linkLogin {
-  padding-top: 25px;
+.linkSectionInformation {
 }
-.link {
-  text-decoration: none;
-  color: var(--accent-color);
-  font-size: 24px;
-  font-family: "Montserrat";
-  font-weight: 700;
-}
-
-.choiceUserLogin {
+.sectionInformationParagraphMeals {
   max-width: 350px;
   padding-top: 35px;
 }
-
-.paragraphChoiceUserLogin {
+.pharagraphMeals {
   color: var(--text-color-bold);
   font-size: 40px;
   font-family: "Montserrat";
   font-weight: 700;
   line-height: 54px;
 }
-.instructionUserLogin {
+.sectionInformationParagraphDrinks {
   max-width: 250px;
   max-height: 150px;
   padding-top: 35px;
 }
 
-.paragraphInstructionUserLogin {
+.pharagraphDrinks {
   color: var(--text-color);
   font-size: 24px;
   font-family: "Montserrat";
@@ -45,10 +35,10 @@
   line-height: 34px;
 }
 
-.screenLogin {
-
+.screenMenu {
+  margin: 0 auto;
 }
-.imageLogin {
+
+.imageMenu {
   width: 100%;
-  margin-top: -70px;
 }
