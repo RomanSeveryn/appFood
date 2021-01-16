@@ -3,7 +3,8 @@
   --text-color: #737373;
   --text-color-bold: #252b42;
   --text-color-black: #000000;
-
+  --text-color-white: #ffffff;
+  --text-color-light-gray: #bdbdbd;
   font-size: 18px;
   text-align: center;
   box-sizing: border-box;
