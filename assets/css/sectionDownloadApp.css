@@ -33,12 +33,12 @@
   display: flex;
   
   max-width: 80%;
-  padding-top: 3em;
+  padding-top: 3.5em;
 }
 .wrapperButtonBuySectionDownloadApp {
   padding-bottom: 2em;
   margin-right: 1em;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 }
 .linkButtonBuy {
   text-decoration: none;
