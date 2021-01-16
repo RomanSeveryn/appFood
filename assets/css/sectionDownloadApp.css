@@ -15,7 +15,7 @@
 .pharagraphDownloadSectionDownloadApp {
   color: var(--text-color-white);
   font-size: 40px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 54px;
 }
@@ -25,7 +25,7 @@
 .paragraphCalendarsSectionDownloadApp {
   color: var(--text-color-light-gray);
   font-size: 24px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   line-height: 34px;
 }
@@ -48,7 +48,7 @@
   padding: 18px 10px;
   border-radius: 12px;
   font-size: 1em;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 .wrapperButtonBuySectionTryForFreeApp {
@@ -62,6 +62,6 @@
   border-radius: 12px;
   color: var(--text-color-white);
   font-size: 1em;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }

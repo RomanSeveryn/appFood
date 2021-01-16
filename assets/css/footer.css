@@ -1,0 +1,28 @@
+.footer {
+
+}
+.wrapperFooter {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.wrapperFooterIcons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3em;
+}
+.wrapperFooterPharagraph {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.footerPharagraph {
+  color: #5c5c5c;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 18px;
+}
+.icons , .icons {
+  margin-right: 24px;
+}
