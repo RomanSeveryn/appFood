@@ -29,6 +29,9 @@
   font-weight: 500;
   line-height: 34px;
 }
+.paragraphCalendarsSectionDownloadAppDesctop {
+  display: none;
+}
 .wrapperButtonSectionDownloadApp {
   display: flex;
   
@@ -64,4 +67,25 @@
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .wrapperSectionDownloadApp {
+    background-image: url("../images/footerDesctop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .paragraphCalendarsSectionDownloadAppDesctop {
+    display: block;
+    color: var(--text-color-white);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 34px;
+  }
+  .paragraphCalendarsSectionDownloadApp {
+    display: none;
+  }
 }

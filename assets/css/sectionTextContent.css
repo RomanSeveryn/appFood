@@ -75,6 +75,8 @@
   }
   .innerTextContent {
     justify-content: center;
+    align-items: flex-start;
+    margin-left: 3em;
     /* align-items: flex-start; */
   }
 
@@ -83,14 +85,17 @@
   .link {
   }
   .paragraphChoiceUserLogin {
+    text-align: left;
   }
   .paragraphInstructionUserLogin {
     display: none;
+    
   }
   .instructionUserLogin {
   }
   .paragraphInstructionUserLoginDesctop {
     display: block;
+    text-align: left;
     color: var(--text-color);
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
