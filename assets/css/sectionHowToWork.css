@@ -198,4 +198,11 @@
   .isMobile {
     display: none;
   }
+
+  .border {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 2em;
+    margin-bottom: 1em;
+  }
 }
