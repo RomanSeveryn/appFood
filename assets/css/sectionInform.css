@@ -17,9 +17,12 @@
 .pharagraphMeals {
   color: var(--text-color-bold);
   font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 54px;
+}
+.pharagraphMealsDesctop {
+  display: none;
 }
 .sectionInformationParagraphDrinks {
   max-width: 250px;
@@ -30,15 +33,74 @@
 .pharagraphDrinks {
   color: var(--text-color);
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   line-height: 34px;
 }
-
+.pharagraphDrinksDesctop {
+  display: none;
+}
 .screenMenu {
   margin: 0 auto;
 }
 
 .imageMenu {
   width: 100%;
+}
+@media screen and (min-width: 420px) {
+  .sectionInformationParagraphMeals {
+    max-width: 650px;
+    /* padding-top: 35px; */
+  }
+  .sectionInformationParagraphDrinks {
+    max-width: 650px;
+    /* max-height: 150px;
+    padding-top: 35px; */
+  }
+}
+@media screen and (min-width: 576px) {
+  .imageMenu {
+    width: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .wrapperSectionInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .textSectionInformation {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .screenMenu {
+    margin: 0;
+  }
+  .link {
+    text-align: left;
+  }
+  .pharagraphMeals {
+    display: none;
+  }
+  .pharagraphMealsDesctop {
+    display: block;
+    text-align: left;
+    color: var(--text-color-bold);
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 54px;
+  }
+  .pharagraphDrinksDesctop {
+    display: block;
+    text-align: left;
+    color: var(--text-color);
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 34px;
+  }
+  .pharagraphDrinks {
+    display: none;
+  }
 }

@@ -163,7 +163,7 @@
   }
   .headerMainPart {
     padding-top: 5em;
-    height: 619px;
+    height: 695px;
     background-image: url("../images/headerDesctop.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,7 +193,7 @@
   }
   .isDesktop {
     display: block;
-    
+    line-height: 1.5em;
   }
   .isMobile {
     display: none;
