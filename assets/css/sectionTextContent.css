@@ -45,8 +45,6 @@
   display: none;
 }
 
-.screenLogin {
-}
 .imageLogin {
   width: 100%;
   margin-top: -70px;
@@ -54,12 +52,9 @@
 @media screen and (min-width: 420px) {
   .choiceUserLogin {
     max-width: 650px;
-    /* padding-top: 35px; */
   }
   .instructionUserLogin {
     max-width: 650px;
-    /* max-height: 150px;
-    padding-top: 35px; */
   }
 }
 @media screen and (min-width: 576px) {
@@ -77,22 +72,15 @@
     justify-content: center;
     align-items: flex-start;
     margin-left: 3em;
-    /* align-items: flex-start; */
   }
 
-  .linkLogin {
-  }
-  .link {
-  }
   .paragraphChoiceUserLogin {
     text-align: left;
   }
   .paragraphInstructionUserLogin {
     display: none;
-    
   }
-  .instructionUserLogin {
-  }
+
   .paragraphInstructionUserLoginDesctop {
     display: block;
     text-align: left;

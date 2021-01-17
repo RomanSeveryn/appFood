@@ -38,7 +38,7 @@
 .paragraphHowToWork {
   font-size: 24px;
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -47,7 +47,6 @@
   margin-top: 2em;
   margin-bottom: 3em;
 }
-
 
 .headerText {
   text-align: center;
@@ -106,7 +105,6 @@
   align-items: center;
 }
 
-
 .buttonPlaystore,
 .buttonAppStore {
   margin-bottom: 0.5em;
@@ -114,50 +112,18 @@
   font-weight: 700;
 }
 
-
 .isDesktop {
   display: none;
 }
 
-
-
-@media screen and (min-width: 450px) {
-  .sectionHowAppWork {
-  }
-  
-}
 @media screen and (min-width: 576px) {
   .containerInfoPhoto {
     max-width: 548px;
     margin: 0 auto;
   }
-  /* .containerInfoPhoto .img {
-    width: 100%;
-    margin-left: -26.5%;
-    margin-right: -10%;
-  } */
-  /* .imageLeft {
-  }
-  .imageRight {
-  } */
-
-
-  
-}
-
-
-@media screen and (min-width: 768px) {
-  /* .sectionHowAppWork {
-    margin-top: 0;
-  }
-  .containerInfoPhoto {
-    margin-top: -250px;
-  } */
 }
 
 @media screen and (min-width: 1170px) {
-  .headerContainer {
-  }
   .sectionHowAppWork {
     margin-top: 0;
   }
@@ -175,7 +141,7 @@
     color: var(--text-color-white);
     font-size: 2em;
   }
-  .headerInformation{
+  .headerInformation {
     color: var(--text-color-white80);
     font-size: 1em;
   }

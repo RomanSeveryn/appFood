@@ -8,8 +8,7 @@
   align-items: center;
   text-align: center;
 }
-.linkSectionInformation {
-}
+
 .sectionInformationParagraphMeals {
   max-width: 350px;
   padding-top: 35px;
@@ -50,12 +49,9 @@
 @media screen and (min-width: 420px) {
   .sectionInformationParagraphMeals {
     max-width: 650px;
-    /* padding-top: 35px; */
   }
   .sectionInformationParagraphDrinks {
     max-width: 650px;
-    /* max-height: 150px;
-    padding-top: 35px; */
   }
 }
 @media screen and (min-width: 576px) {
