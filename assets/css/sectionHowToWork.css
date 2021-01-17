@@ -6,10 +6,14 @@
   margin-top: 200px;
 }
 .containerInfoPhoto {
-  display: flex;
+  overflow-x: hidden;
 }
 
-.imageInfoLeft {
+.containerInfoPhoto img {
+  width: 100%;
+}
+
+/* .imageInfoLeft {
   width: 60%;
 }
 .imageInfoRight {
@@ -23,7 +27,7 @@
 .imageRight {
   margin-top: 215px;
   margin-left: -70px;
-}
+} */
 
 .headingHowAppWork {
   font-size: 1.5em;
@@ -44,18 +48,154 @@
   margin-bottom: 3em;
 }
 
+
+.headerText {
+  text-align: center;
+}
+.headerHeading {
+  margin-top: 0;
+  font-size: 1em;
+  color: var(--text-color);
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.wrapperHeaderParagraph {
+  /* max-width: 410px;
+  width: 100%; */
+  margin: 0 auto;
+}
+.headerParagraph {
+  margin-top: 1em;
+  font-size: 35px;
+  color: var(--text-color-bold);
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.wrapperHeaderInformation {
+  /* max-width: 340px;
+  width: 100%; */
+  margin: 0 auto;
+}
+.buttonLink {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
+  padding: 0.7em 2em;
+}
+.linkPlaystore {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.linkAppStore {
+  color: var(--accent-color);
+}
+.headerInformation,
+.headerButton {
+  margin-top: 2em;
+  color: var(--text-color);
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.headerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.buttonPlaystore,
+.buttonAppStore {
+  margin-bottom: 0.5em;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+
+.isDesktop {
+  display: none;
+}
+
+
+
 @media screen and (min-width: 450px) {
   .sectionHowAppWork {
   }
-  .imageRight {
-  }
+  
 }
 @media screen and (min-width: 576px) {
-  .sectionHowAppWork {
+  .containerInfoPhoto {
+    max-width: 548px;
+    margin: 0 auto;
   }
-
-  .imageLeft {
+  /* .containerInfoPhoto .img {
+    width: 100%;
+    margin-left: -26.5%;
+    margin-right: -10%;
+  } */
+  /* .imageLeft {
   }
   .imageRight {
+  } */
+
+
+  
+}
+
+
+@media screen and (min-width: 768px) {
+  /* .sectionHowAppWork {
+    margin-top: 0;
+  }
+  .containerInfoPhoto {
+    margin-top: -250px;
+  } */
+}
+
+@media screen and (min-width: 1170px) {
+  .headerContainer {
+  }
+  .sectionHowAppWork {
+    margin-top: 0;
+  }
+  .headerMainPart {
+    padding-top: 5em;
+    height: 619px;
+    background-image: url("../images/headerDesctop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .headerHeading {
+    color: var(--text-color-white80);
+  }
+  .headerParagraph {
+    color: var(--text-color-white);
+    font-size: 2em;
+  }
+  .headerInformation{
+    color: var(--text-color-white80);
+    font-size: 1em;
+  }
+  .headerButton {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .linkAppStore {
+    color: var(--text-color-white);
+    border: 1px solid var(--text-color-white);
+    margin-left: 1em;
+  }
+  .containerInfoPhoto {
+    margin-top: -350px;
+  }
+  .isDesktop {
+    display: block;
+    
+  }
+  .isMobile {
+    display: none;
   }
 }
