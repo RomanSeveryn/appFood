@@ -1,3 +1,7 @@
+.textContent {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .innerTextContent {
   display: flex;
   flex-direction: column;

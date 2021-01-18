@@ -1,5 +1,3 @@
-.sectionDownloadApp {
-}
 .wrapperSectionDownloadApp {
   display: flex;
   flex-direction: column;
@@ -54,8 +52,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-.wrapperButtonBuySectionTryForFreeApp {
-}
+
 .linlButtonTryForFree {
   text-decoration: none;
 

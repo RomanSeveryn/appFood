@@ -26,6 +26,9 @@
 .footerLogoImage {
   display: none;
 }
+.icons {
+  object-fit: contain;
+}
 .icons,
 .icons {
   margin-right: 24px;

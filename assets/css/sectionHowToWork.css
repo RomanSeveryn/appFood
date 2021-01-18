@@ -13,22 +13,6 @@
   width: 100%;
 }
 
-/* .imageInfoLeft {
-  width: 60%;
-}
-.imageInfoRight {
-  width: 40%;
-}
-
-.imageLeft {
-  margin-left: 10px;
-}
-
-.imageRight {
-  margin-top: 215px;
-  margin-left: -70px;
-} */
-
 .headingHowAppWork {
   font-size: 1.5em;
   margin-top: 2em;
@@ -50,6 +34,8 @@
 
 .headerText {
   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .headerHeading {
   margin-top: 0;
@@ -60,20 +46,16 @@
 }
 
 .wrapperHeaderParagraph {
-  /* max-width: 410px;
-  width: 100%; */
   margin: 0 auto;
 }
 .headerParagraph {
   margin-top: 1em;
-  font-size: 35px;
+  font-size: 33px;
   color: var(--text-color-bold);
   font-family: "Montserrat";
   font-weight: 700;
 }
 .wrapperHeaderInformation {
-  /* max-width: 340px;
-  width: 100%; */
   margin: 0 auto;
 }
 .buttonLink {
